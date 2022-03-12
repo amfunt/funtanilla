@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fdf1b8;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*navbar box*/
+.navbar{
+    background-color: #ffdbbd;
+    border-bottom: 1.5px solid;
+    border-color: #c26743;
+    padding-left: 1em;
+}
+
+.navbar a{
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    color: rgba(141, 28, 0, 0.815) !important;
+    padding-left: 1%;
+    border: 1px solid rgb(121, 0, 26);
+    border-radius: 5px;
+
+}
+
+.navbar a:hover{
+    border: 1px solid rgb(121, 0, 26);
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+.navbar span a:hover{
+    border: 1px solid rgb(121, 0, 26);
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    background-color: rgb(243, 96, 60);
+
+}
+
+.navbar span a {
+    border: 1px solid rgb(121, 0, 26);
+    border-radius: 5px;
+    background-color: rgb(243, 96, 60);
+    color: rgb(255, 233, 233) !important;
+    padding-left: 1%;
+}
+
+/*line on navbar and titles*/
+hr{
+    width: auto;
+    color: #c26743;
+    border-top: 3px solid;
+}
+
+/*container of pic and texts on home*/
+.container{
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+}
+.container .card2{
+    background-color: rgb(255, 252, 250);
+	border: 1px solid rgb(143, 19, 19);
+	border-radius: 9px;
+}
+
+/*container of pic on home*/
+.container .pfp{
+    width: 100%; 
+    min-width: 510px;
+}
+
+.container .pfp img{
+    width: 100%;
+}
+
+/*container for HOME text: hi, name, and description*/
+.container .name{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(241, 84, 72);
+}
+
+/*text: Hi*/
+.container .name .name-hi{
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+/*text: name*/
+.container .name .name-text{
+    font-weight: 950;
+    font-size: 1.5rem;
+    letter-spacing: 1.4px;
+    margin-top: -4%;
+}
+.container .name .name-text span{
+    font-weight: 950;
+    font-size: 2.9rem;
+    letter-spacing: 1.4px;
+    margin-top: -4%;
+}
+
+/*text: description*/
+.container .name .desc-text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    padding-right: 60px;
+}
+
+/*universal style for area: titles*/
+.titlebar{
+    text-align: center;
+    padding-top: 1rem;
+    align-items: center !important;  
+    align-content: center !important;  
+}
+
+.container1 .btn{
+    margin-top: 0;
+    background-color: rgb(224, 89, 55);
+    color: rgb(255, 233, 233);
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1.5px solid rgb(121, 0, 95);
+
+}
+.container1 .btn:hover{
+    border: 1.5px solid rgb(121, 0, 95);
+    color: rgb(226, 62, 21);
+    background-color: #ffdbbd;
+}
+.btn{
+    background-color: rgb(224, 89, 55);
+    color: rgb(255, 233, 233);
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1.5px solid rgb(121, 0, 95);
+
+}
+.btn:hover{
+    border: 1.5px solid rgb(121, 0, 95);
+    color: rgb(226, 62, 21);
+    background-color: #ffdbbd;
+}
+
+.card .btn{
+    background-color: rgb(224, 89, 55);
+    color: rgb(255, 233, 233);
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1.5px solid rgb(121, 0, 95);
+    margin: 0;
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
+}
+.card .btn:hover{
+    border: 1.5px solid rgb(121, 0, 95);
+    color: rgb(226, 62, 21);
+    background-color: #ffdbbd;
+    
+}
+
+/*universal style for text: titles*/
+.titles{  
+    color:#4d0202;
+    font-size: 3em;
+    font-family: 'Dosis', sans-serif;    
+    font-weight: 600;
+    letter-spacing: 8.5px;
+    text-transform: uppercase;
+    text-shadow:
+    0 0 0 rgba(185, 41, 41, 0.904),
+    0 0 0 rgb(240, 0, 0),
+    -1px 1px 0 rgb(95, 3, 3),
+    2px 2px 0 rgb(206, 58, 58);
+}
+
+/*SKILLS TAB STARTS HERE*/
+/*SKILLS TAB: box spacing*/
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 3rem;
+    
+}
+
+/*container for columns*/
+.trialcolumn{
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+    max-width: 380px;
+}
+
+
+/*SKILLS TAB: box area for skills*/
+.boxskill{
+    padding: 0.5rem 0.5rem 0 0.5rem ;
+    justify-content: center;
+	background-color: rgb(255, 252, 250);
+	border: 1px solid rgb(143, 19, 19);
+	border-radius: 9px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+
+}
+
+/*SKILLS TAB: text: prog languages*/
+.skilltext{
+	color: #333;
+	font-size: 1.3rem;
+	font-family: 'Josefin Sans', sans-serif;
+    display: inline-flex;
+}
+
+/*PROGRESS BAR TINGZ*/
+progress {
+	display:inline-block;
+	width: 95%;
+	padding:0px 2px 2px 15px;
+	margin:0;
+	border: 0;
+	border-radius: 15px;
+	position:relative;
+    font-size: 0.6rem;
+}
+progress::-webkit-progress-bar {
+	height:1rem;
+	width:auto;
+	margin:0 auto;
+	background-color: rgb(252, 252, 252);
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress::-webkit-progress-value {
+	float: left;
+	height:1rem;
+	background: #fdad7f;
+	border-radius: 10px;
+	box-shadow:0px 0px 5px rgb(114, 114, 114) inset;
+}
+progress:after {
+	margin:-26px 0 0 -7px;
+	padding: 0;
+	float: left;
+	content: attr(value) '%';
+}
+/*END PROGRESS TAB*/
+/*PROJECTS TAB STARTS HERE*/
+
+/*PROJECTS: alignments inside the box*/
+.card{    
+    padding: 0.8rem 0.5rem 0.2rem 0.5rem ;
+	background-color:#ffb991;
+	border: 1.5px solid rgb(143, 19, 19);
+	border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.card img{
+    height: 220px;
+    width: auto;
+    border-radius: 6px;
+}
+
+.projectarea:hover {
+    border: 1.5px solid rgb(19, 19, 19);
+    
+  }
+
+/*END OF PROJECTS PAGE*/ 
+
+/*ABOUT PAGE STARTS HERE*/
+/*container of pic and texts*/
+
+/*container of pic*/
+.container .pfp2{
+    width: 100%; 
+    min-width: 300px;
+}
+
+.container .pfp2 img{
+    width: 100%;
+    max-width: 580px;
+}
+
+
+/*container for text: hi, name, and description*/
+.container .name2{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(241, 84, 72);
+}
+
+/*text: Hi*/
+.container .name2 .name-hi{
+    font-weight: 800;
+    font-size: 2.2em;
+}
+
+/*text: name*/
+.container .name2 .name-text{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+/*text: description*/
+.container .name2 .desc-text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+
+/*CONTACT US: text*/
+.cutext{
+        font-size: 1rem;
+        font-style: oblique;
+        padding: 1rem; 
+        margin: 0;
+}
+
+/*CONTACT US alignment*/
+.contactus{
+    margin: 0;
+    text-align: center;
+}
+
